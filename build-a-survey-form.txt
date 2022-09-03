@@ -1,0 +1,90 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="styles.css">
+  <head>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+  </head>
+  <body>
+    <form id="survey-form">
+      <label id="name-label">
+        Name <input required id="name" type="text" placeholder="Name" class="cien">
+      </label>
+      <label id="email-label">
+        Email <input required id="email" type="email"  placeholder="Email" class="cien">
+      </label>
+      <label id="number-label" >
+        Edad<input required id="number" type="number" min="0" max="120" placeholder="Edad" class="cien">
+      </label>
+      <label>
+        Which option best describes your current role?
+        <select id="dropdown" class="cien">
+          <option>Student
+          </option>
+          <option>Fulltime job
+          </option>
+        </select>
+      </label>
+
+    
+      <label>
+        Would you recommend freeCodeCamp to a friend?
+      </label>
+      <label class="gaga">
+          Definitely<input type="radio" name="radio" value="yes" >
+      </label>
+      <label class="gaga">
+        Maybe<input type="radio" name="radio" value="yes">
+      </label>
+      
+      
+      <label>
+        What would you like to see improved? (Check all that apply)
+      </label>
+      <label calss="gaga">
+        <input type="checkbox" value="on" calss="gugu">Front-end
+      </label>
+      <label calss="gaga">
+        <input type="checkbox" value="on">Bakck-end
+      </label>
+      <label>
+        Additional comments
+        <textarea  placeholder="Comentarios"></textarea>
+      </label>
+      <label>
+        <input type="submit" id="submit" class="cien">
+      </label>
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html{background-Color: rgb(15,157,137);}
+
+body{color: white;
+font-family: helvetica;
+}
+
+h1,p{text-align: center;}
+
+form{margin:auto;
+max-width:1200px;
+background-Color:rgba(20,15,157,70%)}
+
+label{display:block;
+padding:15px
+}
+
+.cien{width: 100%;}
+
+ 
+.gaga{display:inline;}
+
+
+** end of undefined **
+
